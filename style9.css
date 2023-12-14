@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: rgb(231, 130, 79);
+  color:rgb(223, 111, 31);
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(232, 156, 94);
+  color: rgb(211, 117, 45);
+}
+
+.header h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(209, 114, 63);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(229, 134, 62);
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #be794d;
+  padding-left: 20px; 
+}
+
+.fakeimg {
+  background-color: #cf835f;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #d57337;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+table{
+    border: 1px solid #000;
+    text-align: center;
+    width:100%;
+    margin-top: 45px;
+    border-collapse: collapse;
+    background-color:  rgb(237, 165, 126) ;
+   }
+
+  td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+   }
